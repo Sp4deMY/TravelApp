@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>TravelApp</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <h3>TravelApp</h3>
+    <h1><p> Enter city to check weather report:</p></h1>
+    <main>
+      <p>Select the name of a city to find out the weather conditions</p>
+      <form method="POST" id="weatherForm">
+          <label for="weatherForm">City:</label>
+          <select id="city">
+            <option value="New York">New York</option>
+            <option value="Los Angeles">Los Angeles</option>
+            <option value="Chicago">Chicago</option>
+            <option value="Houston">Houston</option>
+            <option value="Phoenix">Phoenix</option>
+          </select>
+          <input id="postSubmit" type="submit" value="Submit" />
+      </form>
+    </main>
+    <main>
+    <form method="POST" id="meal-form">
+      <label for="meal">Meal:</label>
+      <h2><select id="meal"></h2>
+        <option value="Big Mac">Big Mac</option>
+        <option value="Krispy Kreme Donut">Krispy Kreme Donut</option>
+        <option value="Salmon Eggs Eggs Benedict">Salmon Eggs Eggs Benedict</option>
+        <option value="Peanut Butter Cookies">Peanut Butter Cookies</option>
+        <option value="Pancakes">Pancakes</option>
+      </select>
+      <input id="postSubmit" type="submit" value="Submit" />
+    </form>
+  </main>
+    
+    <div id="meal-list"></div>
+    
+    <style>
+      #meal-form {
+        text-align: center;
+      }
+    </style>
+
+    <!-- Site footer --> 
+    <section class="footer"> 
+      <h4>Created by Muhammad Arif Bin Afzal (BCS2107-067) </h4>
+      
+      <div class="social">
+        <a href="https://www.instagram.com/_arifafzal/"><i class="fab fa-instagram"></i></a> 
+        <a href="https://www.tiktok.com/@_arifafzal"><i class="fab fa-tiktok"></i></a> 
+        <a href="https://www.facebook.com/arif.afzal.12"><i class="fab fa-facebook"></i></a> 
+      </div>
+    </section>
+    
+      
+    <script src="function.js"></script>
+
+  </body>
+</html>
